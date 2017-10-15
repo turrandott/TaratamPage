@@ -26,7 +26,7 @@
                   <span class="icon-bar"></span>
               </button>
 
-              <a href="#" class="navbar-brand">TARATAM Wish realizer</a>
+              <a href="#" class="navbar-brand">TARATAM</a>
           </div>
 
           <div class="navbar-collapse collapse">
@@ -54,13 +54,13 @@
       </div>
       <div class="row">
         <div class="col-lg-12 col-md-12">
-          <a href="#globalpeace" class="btn-lg btn-success active" role="button">Yes</a>
-          <a href="#realizewish" class="btn-lg btn-primary" role="button">No</a>
+          <a href="#globalpeace" class="btn btn-lg btn-success active" role="button">Yes</a>
+          <a href="#realizewish" class="btn btn-lg btn-primary" role="button">No</a>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12 col-md-12">
-          <p><span>TARATAM is a WISH REALIZER.</span> Like the Aladdin lamp it is a tool that can be used to expres a wish and realize. The difference from the lamp are: is more modern (use internet); there is no limit to the number of wishes (Aladdin have only three); the genius of the lamp is the Human Being Community on planet Earth, than also me and you now.</p>
+          <p><span>TARATAM is a WISH REALIZER.</span> Like Aladdin's lamp it is a tool that can be used to express a wish and realize it. It differs than the lamp in that it is more modern (uses the internet); there is no limit to the number of wishes (Aladdin only had three) and the genie of the lamp is the Human Being Community on planet Earth, like me and you here now.</p>
         </div>
       </div>
     </div>
@@ -71,19 +71,22 @@
   <div id="globalpeace" class="globalpeace">
     <div class="container">
       <div class="banner-text text-center">
-        <h1>DO YOU WISH A GLOBAL PEACE?</h1>
+        <h1>DO YOU WISH FOR GLOBAL PEACE?</h1>
       </div>
     </div>
     <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6">
-            <a href="globalpeace.html" class="btn-lg btn-warning active" role="button">Yes</a>
-            <a href="#makewish" class="btn-lg btn-primary" role="button">I have another wish</a>
-              <p>Global Peace looks as something far away because we feel separated and not enough trained to express basic wish of all humanity together.</p>
-              <p>Try to do now. If you already did or just you feel to express another wish before also you can do.</p>
+            <a href="globalpeace.html" class="btn btn-lg btn-warning active" role="button">Yes</a>
+            <a href="#makewish" class="btn btn-lg btn-primary" role="button">I have another wish</a>
+              <p>Global Peace looks like something far away because we feel separated and not conditioned to express basic wishes of the Human Community.</p>
+              <p>Try to do it now. If you have already expressed your wish for Global Peace and/or you have another wish you would like to realize, you may ask Taratam now</p>
           </div>
           <div class="col-lg-6 col-md-6">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/44sxrUg7J_Q?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <!--<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/44sxrUg7J_Q?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div> -->
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/44sxrUg7J_Q?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
     </div>
@@ -95,16 +98,16 @@
   <div id="makewish" class="makewish">
     <div class="container">
       <h2>MAKE A WISH</h2>
-      <p>Here is an explanation how to make and relize wishes using TARATAM</p>
+      <p>Here is an explanation of how to make and realize wishes using TARATAM</p>
       <div class="row">
         <div class="col-lg-4 col-md-4">
           <div class="packages">
             <!-- <i class="fa fa-desktop" aria-hidden="true"></i> -->
             <h4>1. IMAGINE</h4>
             <li>Close your eyes and just imagine your wish realized.</li>
-            <li>How will be.</li>
-            <li>How you feel about it.</li>
-            <li>Also this passage is important for discover if you really care about, than you are ready to formulate again or go to step 2.</li>
+            <li>How will it be.</li>
+            <li>How do you feel about it.</li>
+            <li>This process is important to discover your intention concerning the wish. Do you really care about it. Than you are ready to formulate it again and continue to step 2.</li>
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
@@ -113,14 +116,31 @@
             <h4>2. EXPRESS</h4>
             <li>Create a video or an audio track or a text where you tell your wish using the magic words: "I WISH (your wish) TARATAM - REALIZE".</li>
             <li>Share your wish using your favorite communication tools and the hash tags "#(your wish)" and "#taratam" "#taratamrealize"</li>
+
+            <!-- form for the wish -->
+            <input type="button" class="btn btn-primary" data-toggle="collapse" data-target="#wishform" value="Express your wish">
+            <!-- HTML код сворачиваемого элемента -->
+            <div id="wishform" class="collapse">
+              <form action="" method="post" class="form-inline">
+                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.2s">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-external-link" aria-hidden="true"></i></span>
+                    <input type="text" name="link" class="form-control" aria-describedby="sizing-addon1" placeholder="Link to a social net">
+                </div>
+                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.2s">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <input type="email" name="email" class="form-control" aria-describedby="sizing-addon1" placeholder="Your email address">
+                </div>
+                <button type="submit" class="btn btn-success wow fadeInUp" data-wow-delay="2.4s">Send</button>
+              </form>
+            </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
           <!-- <i class="fa fa-database" aria-hidden="true"></i> -->
           <div class="packages">
             <h4>3. REALIZE</h4>
-            <li>To make possible your wish to be realized you have to start to realize wishes of others.</li>
-            <a href="#realizewish" class="btn-lg btn-success" role="button">Realize a wish</a>
+            <li>To make it possible for your wish to be realized you must start to realize the wishes of others.</li>
+            <a href="#realizewish" class="btn btn-success" role="button">Realize a wish</a>
           </div>
         </div>
       </div>
@@ -135,18 +155,98 @@
     <div class="container">
       <div class="row">
         <h1>REALIZE A WISH</h1>
-        <p>To realize a wish just search using tags in communication tools and see if there is some that you are able to realize or to be helpfull with. You can chat directly or create group of realizers (we suggest 20 persons + 1 official TARATAM moderator). Than... REALIZE!</p>
-        <p>When you realize a wish add a comment or better create a new content where you tell about. This can be very useful for everybody!
+        <p>To realize a wish just search using tags in communication tools (like FB, Youtube, Instagram) and see if there are some wishes that you are able to fulfill or to be helpfull with. You can chat directly or create group of Realizers (we suggest 20 persons + 1 official TARATAM moderator). Than... REALIZE!</p>
+        <p>When you have realize a wish add a comment or, better yet, create a new post or video to tell your story of wish realization. This can be very useful for everybody!
         </p>
       </div>
+    </div>
+    <div class="banner-text text-center">
+      <h1>MAKE A WISH</h1>
+      <h1>TARATAM REALIZE</h1>
+    </div>
+  </div>
 </div>
   <!-- End Realize a wish -->
+
+  <!--
 <div id="footer" class="footer">
     <div class="banner-text text-center">
       <h1>MAKE A WISH</h1>
       <h1>TARATAM REALIZE</h1>
     </div>
-</div>
+</div> -->
+
+<!---- Footer ---->
+<!--
+<div id="footer" class="footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h4 class="wow fadeInUp">What communication tool do you usually use?</h4>
+            </div>
+        </div>
+        <div class="row">
+          <a href="https://www.facebook.com/TARATAMrealize/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+
+        </div>
+                <p><i class="fa fa-home" aria-hidden="true"></i> 111 Main Street, Washington DC, 22222</p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i> info@media.com</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i> +1 222 222 2222</p>
+                <p><i class="fa fa-globe" aria-hidden="true"></i> www.media.com</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h4>About</h4>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h4>Stay in touch</h4>
+                <i class="social fa fa-facebook" aria-hidden="true"></i>
+                <i class="social fa fa-twitter" aria-hidden="true"></i>
+               <i class="social fa fa-linkedin" aria-hidden="true"></i>
+               <i class="social fa fa-pinterest" aria-hidden="true"></i>
+               <i class="social fa fa-youtube" aria-hidden="true"></i>
+               <i class="social fa fa-github" aria-hidden="true"></i><br>
+               <input type="email" placeholder="Subscribe For Updates"><button class="btn btn-success">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<footer class="section footer">
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="col-md-12">
+        <p>What communication tool do you usually use?
+          <ul class="footer-share">
+            <li><a href="https://www.facebook.com/TARATAMrealize/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UC68tf_ASemDlS8ckr1dfPuQ" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="http://libereria.net/groups/5" target="_blank"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+            <li><a href="#"><i class="fa fa-vimeo"></i></a></li>-->
+          </ul>
+        </p>
+        <p>Not listed yet? <a href="" data-toggle="collapse" data-target="#addsocial">Add one!</a><br></p>
+        <div id="addsocial" class="collapse">
+          <form action="" method="post" class="form-inline">
+            <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.2s">
+                <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-external-link" aria-hidden="true"></i></span>
+                <input type="text" name="link" class="form-control" aria-describedby="sizing-addon1" placeholder="Link to a social net">
+            </div>
+            <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.2s">
+                <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <input type="email" name="email" class="form-control" aria-describedby="sizing-addon1" placeholder="Your email address">
+            </div>
+            <button type="submit" class="btn btn-success wow fadeInUp" data-wow-delay="2.4s">Send</button>
+          </form>
+        </div>
+        <p>TARATAM <i class="fa fa-heart pulse"></i> WISH REALIZER</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
