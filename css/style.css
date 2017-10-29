@@ -149,6 +149,7 @@ p {
   }
 }
 
+
 /* ------------------------------------------------------------------------------
 	Banner
 -------------------------------------------------------------------------------*/
@@ -522,4 +523,35 @@ height: 100%;
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
+}
+
+.disclaimer {
+  position: fixed;
+  width: 40%;
+  height: auto;
+  left:0;
+  bottom: 10%;
+  background-color: #f7678e;
+}
+.disclaimer p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align:center;
+  padding: 10px;
+}
+
+@media(max-width:768px) {
+
+    .disclaimer {
+
+        width: 60%;
+    }
+
+    .disclaimer p {
+
+        font-size: 12px;
+        font-weight: normal;
+        padding: 5px;
+    }
 }
